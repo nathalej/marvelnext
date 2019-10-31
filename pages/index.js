@@ -12,7 +12,6 @@ const Home = () => (
     <Nav />
     <div className='comics'>
       <h1 className='title'>Welcome to Marvel Catalog</h1>
-      
       <div className='row'>
         <a href='#' className='card'>
           <h3>Avengers/X-men</h3>
@@ -26,9 +25,12 @@ const Home = () => (
           <h3>Events</h3>
           <p>Crossovers and the greates events</p>
         </a>
+        <a href='' className='card'>
+          <h3>Super Fiends</h3>
+          <p>The best Marvel Super Friends</p>
+        </a>
       </div>
     </div>
-
     <style jsx>{`
       .hero {
         width: 100%;
