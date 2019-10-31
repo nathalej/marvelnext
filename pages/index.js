@@ -5,33 +5,26 @@ import Nav from '../components/nav'
 const Home = () => (
   <div>
     <Head>
-      <title>Home</title>
+      <title>Marvel Catalog</title>
       <link rel='icon' href='/favicon.ico' />
     </Head>
 
     <Nav />
-
-    <div className='hero'>
-      <h1 className='title'>Welcome to Next.js!</h1>
-      <p className='description'>
-        To get started, edit <code>pages/index.js</code> and save to reload.
-      </p>
-
+    <div className='comics'>
+      <h1 className='title'>Welcome to Marvel Catalog</h1>
+      
       <div className='row'>
-        <a href='https://nextjs.org/docs' className='card'>
-          <h3>Documentation &rarr;</h3>
-          <p>Learn more about Next.js in the documentation.</p>
+        <a href='#' className='card'>
+          <h3>Avengers/X-men</h3>
+          <p>The gratest heroes fighting for save/destroy the Fenix's force</p>
         </a>
-        <a href='https://nextjs.org/learn' className='card'>
-          <h3>Next.js Learn &rarr;</h3>
-          <p>Learn about Next.js by following an interactive tutorial!</p>
+        <a href='' className='card'>
+          <h3>Characters</h3>
+          <p>All comics characters like a Spider-man o Wolverine, here!</p>
         </a>
-        <a
-          href='https://github.com/zeit/next.js/tree/master/examples'
-          className='card'
-        >
-          <h3>Examples &rarr;</h3>
-          <p>Find other example boilerplates on the Next.js GitHub.</p>
+        <a href='' className='card'>
+          <h3>Events</h3>
+          <p>Crossovers and the greates events</p>
         </a>
       </div>
     </div>
